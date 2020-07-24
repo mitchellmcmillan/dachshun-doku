@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.cb68a4ef.chunk.css",
-    "main.js": "/static/js/main.e630f999.chunk.js",
-    "main.js.map": "/static/js/main.e630f999.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.fd1afa18.js",
-    "runtime-main.js.map": "/static/js/runtime-main.fd1afa18.js.map",
-    "static/js/2.572f4d09.chunk.js": "/static/js/2.572f4d09.chunk.js",
-    "static/js/2.572f4d09.chunk.js.map": "/static/js/2.572f4d09.chunk.js.map",
-    "2a6365ae50b8e1bc1b3b.worker.js": "/2a6365ae50b8e1bc1b3b.worker.js",
-    "2a6365ae50b8e1bc1b3b.worker.js.map": "/2a6365ae50b8e1bc1b3b.worker.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.0976bc576acfc5a4263f7157aef13330.js": "/precache-manifest.0976bc576acfc5a4263f7157aef13330.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.cb68a4ef.chunk.css.map": "/static/css/main.cb68a4ef.chunk.css.map",
-    "static/js/2.572f4d09.chunk.js.LICENSE.txt": "/static/js/2.572f4d09.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/static/media/ConnectionII.fdbb4654.ttf",
-    "static/media/dog-still.png": "/static/media/dog-still.2f9a8692.png"
+    "main.css": "/dachshun-doku/static/css/main.24b17583.chunk.css",
+    "main.js": "/dachshun-doku/static/js/main.a0d994ad.chunk.js",
+    "main.js.map": "/dachshun-doku/static/js/main.a0d994ad.chunk.js.map",
+    "runtime-main.js": "/dachshun-doku/static/js/runtime-main.b1c85c4c.js",
+    "runtime-main.js.map": "/dachshun-doku/static/js/runtime-main.b1c85c4c.js.map",
+    "static/js/2.572f4d09.chunk.js": "/dachshun-doku/static/js/2.572f4d09.chunk.js",
+    "static/js/2.572f4d09.chunk.js.map": "/dachshun-doku/static/js/2.572f4d09.chunk.js.map",
+    "6c160d89d42b3de1d4da.worker.js": "/dachshun-doku/6c160d89d42b3de1d4da.worker.js",
+    "6c160d89d42b3de1d4da.worker.js.map": "/dachshun-doku/6c160d89d42b3de1d4da.worker.js.map",
+    "index.html": "/dachshun-doku/index.html",
+    "precache-manifest.a6e226e1a533f58d7e749e3f2e4afb92.js": "/dachshun-doku/precache-manifest.a6e226e1a533f58d7e749e3f2e4afb92.js",
+    "service-worker.js": "/dachshun-doku/service-worker.js",
+    "static/css/main.24b17583.chunk.css.map": "/dachshun-doku/static/css/main.24b17583.chunk.css.map",
+    "static/js/2.572f4d09.chunk.js.LICENSE.txt": "/dachshun-doku/static/js/2.572f4d09.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/dachshun-doku/static/media/ConnectionII.fdbb4654.ttf",
+    "static/media/dog-still.png": "/dachshun-doku/static/media/dog-still.2f9a8692.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.fd1afa18.js",
+    "static/js/runtime-main.b1c85c4c.js",
     "static/js/2.572f4d09.chunk.js",
-    "static/css/main.cb68a4ef.chunk.css",
-    "static/js/main.e630f999.chunk.js"
+    "static/css/main.24b17583.chunk.css",
+    "static/js/main.a0d994ad.chunk.js"
   ]
 }
