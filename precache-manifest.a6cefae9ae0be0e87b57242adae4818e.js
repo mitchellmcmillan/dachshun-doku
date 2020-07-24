@@ -4,11 +4,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dachshun-doku/6c160d89d42b3de1d4da.worker.js"
   },
   {
-    "revision": "96b645c19c977fb18c42054d9a5c333c",
+    "revision": "0755b1e7eb26ba44963294db46fa071e",
     "url": "/dachshun-doku/index.html"
   },
   {
-    "revision": "dffff141e05ab2528234",
+    "revision": "1414fdff4444152940af",
     "url": "/dachshun-doku/static/css/main.24b17583.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dachshun-doku/static/js/2.572f4d09.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dffff141e05ab2528234",
-    "url": "/dachshun-doku/static/js/main.a0d994ad.chunk.js"
+    "revision": "1414fdff4444152940af",
+    "url": "/dachshun-doku/static/js/main.edb8b5d0.chunk.js"
   },
   {
     "revision": "a47e8849bc216f586b6f",
