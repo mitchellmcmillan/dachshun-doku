@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/dachshun-doku/static/css/main.24b17583.chunk.css",
-    "main.js": "/dachshun-doku/static/js/main.a191a3a3.chunk.js",
-    "main.js.map": "/dachshun-doku/static/js/main.a191a3a3.chunk.js.map",
+    "main.css": "/dachshun-doku/static/css/main.7fda5f9b.chunk.css",
+    "main.js": "/dachshun-doku/static/js/main.04dee274.chunk.js",
+    "main.js.map": "/dachshun-doku/static/js/main.04dee274.chunk.js.map",
     "runtime-main.js": "/dachshun-doku/static/js/runtime-main.b1c85c4c.js",
     "runtime-main.js.map": "/dachshun-doku/static/js/runtime-main.b1c85c4c.js.map",
-    "static/js/2.572f4d09.chunk.js": "/dachshun-doku/static/js/2.572f4d09.chunk.js",
-    "static/js/2.572f4d09.chunk.js.map": "/dachshun-doku/static/js/2.572f4d09.chunk.js.map",
+    "static/js/2.684edddf.chunk.js": "/dachshun-doku/static/js/2.684edddf.chunk.js",
+    "static/js/2.684edddf.chunk.js.map": "/dachshun-doku/static/js/2.684edddf.chunk.js.map",
     "6c160d89d42b3de1d4da.worker.js": "/dachshun-doku/6c160d89d42b3de1d4da.worker.js",
     "6c160d89d42b3de1d4da.worker.js.map": "/dachshun-doku/6c160d89d42b3de1d4da.worker.js.map",
     "index.html": "/dachshun-doku/index.html",
-    "precache-manifest.eed8f62b4768664cb965e1190beaf3a4.js": "/dachshun-doku/precache-manifest.eed8f62b4768664cb965e1190beaf3a4.js",
+    "precache-manifest.8470827c27aa98fbf18e245c99ef04c1.js": "/dachshun-doku/precache-manifest.8470827c27aa98fbf18e245c99ef04c1.js",
     "service-worker.js": "/dachshun-doku/service-worker.js",
-    "static/css/main.24b17583.chunk.css.map": "/dachshun-doku/static/css/main.24b17583.chunk.css.map",
-    "static/js/2.572f4d09.chunk.js.LICENSE.txt": "/dachshun-doku/static/js/2.572f4d09.chunk.js.LICENSE.txt",
+    "static/css/main.7fda5f9b.chunk.css.map": "/dachshun-doku/static/css/main.7fda5f9b.chunk.css.map",
+    "static/js/2.684edddf.chunk.js.LICENSE.txt": "/dachshun-doku/static/js/2.684edddf.chunk.js.LICENSE.txt",
     "static/media/App.css": "/dachshun-doku/static/media/ConnectionII.fdbb4654.ttf",
     "static/media/dog-still.png": "/dachshun-doku/static/media/dog-still.2f9a8692.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b1c85c4c.js",
-    "static/js/2.572f4d09.chunk.js",
-    "static/css/main.24b17583.chunk.css",
-    "static/js/main.a191a3a3.chunk.js"
+    "static/js/2.684edddf.chunk.js",
+    "static/css/main.7fda5f9b.chunk.css",
+    "static/js/main.04dee274.chunk.js"
   ]
 }
