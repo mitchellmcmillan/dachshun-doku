@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/dachshun-doku/precache-manifest.1b32259ef38a63a867ef9d1280cb894c.js"
+  "/dachshun-doku/precache-manifest.afa1c73d7e96d0d6e9f2285b071ee6f1.js"
 );
 
 self.addEventListener('message', (event) => {
