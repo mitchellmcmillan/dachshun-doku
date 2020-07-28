@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/dachshun-doku/static/css/main.7fda5f9b.chunk.css",
-    "main.js": "/dachshun-doku/static/js/main.1a494ce7.chunk.js",
-    "main.js.map": "/dachshun-doku/static/js/main.1a494ce7.chunk.js.map",
+    "main.js": "/dachshun-doku/static/js/main.a6e89f37.chunk.js",
+    "main.js.map": "/dachshun-doku/static/js/main.a6e89f37.chunk.js.map",
     "runtime-main.js": "/dachshun-doku/static/js/runtime-main.b1c85c4c.js",
     "runtime-main.js.map": "/dachshun-doku/static/js/runtime-main.b1c85c4c.js.map",
     "static/js/2.684edddf.chunk.js": "/dachshun-doku/static/js/2.684edddf.chunk.js",
@@ -10,7 +10,7 @@
     "6c160d89d42b3de1d4da.worker.js": "/dachshun-doku/6c160d89d42b3de1d4da.worker.js",
     "6c160d89d42b3de1d4da.worker.js.map": "/dachshun-doku/6c160d89d42b3de1d4da.worker.js.map",
     "index.html": "/dachshun-doku/index.html",
-    "precache-manifest.5d03c55d1ef6f7cb7fc516458c3d299c.js": "/dachshun-doku/precache-manifest.5d03c55d1ef6f7cb7fc516458c3d299c.js",
+    "precache-manifest.94f0f815cd580dda5c0f15968550a3da.js": "/dachshun-doku/precache-manifest.94f0f815cd580dda5c0f15968550a3da.js",
     "service-worker.js": "/dachshun-doku/service-worker.js",
     "static/css/main.7fda5f9b.chunk.css.map": "/dachshun-doku/static/css/main.7fda5f9b.chunk.css.map",
     "static/js/2.684edddf.chunk.js.LICENSE.txt": "/dachshun-doku/static/js/2.684edddf.chunk.js.LICENSE.txt",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.b1c85c4c.js",
     "static/js/2.684edddf.chunk.js",
     "static/css/main.7fda5f9b.chunk.css",
-    "static/js/main.1a494ce7.chunk.js"
+    "static/js/main.a6e89f37.chunk.js"
   ]
 }
