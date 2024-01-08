@@ -1,0 +1,357 @@
+@font-face {
+  font-family: ConnectionII;
+  src: url("fonts/ConnectionII.woff") format("woff"),
+       url("fonts/ConnectionII.ttf")  format("truetype");
+}
+
+@import url('range.css');
+
+.App {
+  text-align: center;
+  font-family: ConnectionII;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #f1c40f;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-body {
+  background-color: #f1c40f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-title-bar {
+  display: flex;
+  flex-direction: row;
+  background-color: #f1c40f;
+  font-size: calc(10px + 1vmin);
+  color: white;
+  justify-content: space-between;
+  flex-shrink: 1;
+}
+
+.App-title-bar h1 {
+  margin: 0.5em;
+  color: white;
+  -webkit-transition: color 300ms cubic-bezier(0.47, 0, 0.745, 0.715);
+  -ms-transition: color 300ms cubic-bezier(0.47, 0, 0.745, 0.715);
+  transition: color 300ms cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+
+.App-navigation-button:hover {
+  color: #cebb70;
+  -webkit-transition: color 300ms cubic-bezier(0.47, 0, 0.745, 0.715);
+  -ms-transition: color 300ms cubic-bezier(0.47, 0, 0.745, 0.715);
+  transition: color 300ms cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+
+.App-title-image {
+  width: 80%;
+}
+
+.App-buttons {
+  width: 50%;
+}
+
+.App-body {
+  background-color: #FAFAFA;
+  color: #383838;
+}
+
+.App-body table tbody tr td {
+  font-size: 1.2em;
+  height: 2em;
+  width: 2em;
+  border: 1px solid #CCC;
+  text-align: center;
+  outline: none;
+  -webkit-transition: background-color 300ms cubic-bezier(0.47, 0, 0.745, 0.715);
+  -ms-transition: background-color 300ms cubic-bezier(0.47, 0, 0.745, 0.715);
+  transition: background-color 300ms cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+
+.App-body table tbody tr td span {
+  margin: 0;
+  padding: 0;
+}
+
+.App-body table tbody tr td.active {
+  background-color: #ededed;
+  -webkit-transition: background-color 300ms cubic-bezier(0.47, 0, 0.745, 0.715);
+  -ms-transition: background-color 300ms cubic-bezier(0.47, 0, 0.745, 0.715);
+  transition: background-color 300ms cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+
+.App-body table tbody tr td:nth-child(3n) {
+  border-right: 3px solid #6d6d6d;
+}
+
+.App-body table tbody tr:nth-child(3n) {
+  border-bottom: 3px solid #6d6d6d;;
+}
+
+.App-body table {
+  border: 3px solid #6d6d6d;
+  border-collapse: collapse;
+}
+
+.App-button {
+  width: 100%;
+  height: 2em;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.75em;
+  margin-bottom: 0.25em;
+  color: white;
+}
+
+.App-button-disabled {
+  background-color: #6d6d6d;
+}
+
+.App-button-enabled {
+  background-color: #CB670E;
+  -webkit-transition: background-color 300ms cubic-bezier(0.47, 0, 0.745, 0.715);
+  -ms-transition: background-color 300ms cubic-bezier(0.47, 0, 0.745, 0.715);
+  transition: background-color 300ms cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+
+.App-button-enabled:hover {
+  background-color: #CE8D54;
+  -webkit-transition: background-color 300ms cubic-bezier(0.47, 0, 0.745, 0.715);
+  -ms-transition: background-color 300ms cubic-bezier(0.47, 0, 0.745, 0.715);
+  transition: background-color 300ms cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-controls-container {
+  flex-grow: 5;
+}
+
+.App-controls {
+  border-collapse: collapse;
+  width: 100%;
+  height: 100%;
+}
+
+.App-controls tbody tr td {
+  background-color: #fffae6;
+  -webkit-transition: background-color 300ms cubic-bezier(0.47, 0, 0.745, 0.715);
+  -ms-transition: background-color 300ms cubic-bezier(0.47, 0, 0.745, 0.715);
+  transition: background-color 300ms cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+
+.App-controls tbody tr td.active {
+  background-color: #fff1b9;
+  -webkit-transition: background-color 300ms cubic-bezier(0.47, 0, 0.745, 0.715);
+  -ms-transition: background-color 300ms cubic-bezier(0.47, 0, 0.745, 0.715);
+  transition: background-color 300ms cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+
+.App-controls tbody tr td {
+  width: 25%;
+  border: 1px solid #CCC;
+  text-align: center;
+  outline: none;
+  font-size: 2em;
+}
+
+.App-middle {
+  display: flex;
+  flex-direction: row;
+  background-color: #f1c40f;
+  font-size: calc(10px + 1vmin);
+  justify-content: center;
+  height: 1.8em;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.fade-enter {
+  opacity: 0.01;
+  transform: scale(1.05);
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transform: scale(1);
+  transition: all 300ms;
+}
+
+.fade-exit {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.fade-exit-active {
+  opacity: 0.01;
+  transform: scale(0.95);
+  transition: all 300ms;
+}
+
+.App-dog {
+  display: block;
+  width: auto;
+  height: auto;
+  max-height:4em;
+  left: 3em;
+  position: absolute;
+}
+
+.App-dog-container h2 {
+  position: absolute;
+  left: 1.5em;
+  top: 0.25em;
+  margin: 0;
+}
+
+.App-dog-container {
+  position: relative;
+}
+
+.App-dog-container {
+  content: " ";
+  z-index: 10;
+  display: block;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0);
+  pointer-events: none;
+}
+
+.App-little-dog {
+  width: 2.5em;
+  height: 2.5em;
+  z-index: 2;
+  margin: 0 0.2em;
+  animation: 1s cubic-bezier(0.19, 1, 0.22, 1) App-little-dog-animate 2 alternate;
+}
+
+@keyframes App-little-dog-animate {
+  from {
+    opacity: 0;
+    transform: translateY(0.5em);
+  }
+}
+
+.App-example-square {
+  height: 1.2em;
+  width: 1.2em;
+  border: 1px solid #CCC;
+  text-align: center;
+  vertical-align: middle;
+  outline: none;
+  background-color: white;
+  margin: auto;
+  color: grey;
+}
+
+.App-example-main {
+  margin: auto;
+  font-size: 0.8em;
+  color: black;
+}
+
+.App-example-top-right {
+  font-size: 0.4em;
+  position: relative;
+  top: -0.9em;
+  right: -0.9em;
+}
+
+.App-example-top-left {
+  font-size: 0.4em;
+  position: relative;
+  top: -0.9em;
+  left: -0.9em;
+}
+
+.App-example-bottom-right {
+  font-size: 0.4em;
+  position: relative;
+  bottom: -0.6em;
+  right: -0.9em;
+}
+
+.App-example-bottom-left {
+  font-size: 0.4em;
+  position: relative;
+  bottom: -0.6em;
+  left: -0.9em;
+}
+
+.App-square-top-left {
+  position: relative;
+  top: -1.1em;
+  left: -0.6em;
+  font-size: 0.6em;
+}
+
+.App-square-top-right {
+  position: relative;
+  top: -1.1em;
+  right: -0.6em;
+  font-size: 0.6em;
+}
+
+.App-body-unsolved table {
+  margin: 0 auto;
+}
+
+.App-body-unsolved table {
+  background-color: #FAFAFA;
+}
+
+.App-unsolved-delete {
+  color: red;
+  font-size: 3em;
+  z-index: 2;
+  position: relative;
+  right: -3.2em;
+  top: 0.2em;
+}
+
+.App-unsolved-entry-deleted {
+  transform: scale(0);
+  transition: all 1000ms cubic-bezier(0.19, 1, 0.22, 1);
+}
